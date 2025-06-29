@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.main-card button {
+  position: relative;
+  left: -45px;
+  top: -13px;
+}
+
+.favorites {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.favorites li {
+  list-style: none;
+}
+
+.favorites img {
+  width: 150px;
+}
